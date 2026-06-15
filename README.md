@@ -1,6 +1,6 @@
- Local RAG System
+# Local RAG System
 
-Overview
+## Overview
 
 This project is a Retrieval-Augmented Generation (RAG) system built using LlamaIndex, ChromaDB, HuggingFace Embeddings, and Ollama.
 
@@ -12,7 +12,7 @@ The system processes documents by:
 4. Retrieving relevant context based on a user's query.
 5. Generating grounded responses using a locally hosted LLM through Ollama.
 
-Technologies Used
+## Technologies Used
 
 * Python
 * LlamaIndex
@@ -20,7 +20,7 @@ Technologies Used
 * HuggingFace Embeddings
 * Ollama
 
-Prerequisites
+## Prerequisites
 
 Before running the project, install:
 
@@ -98,3 +98,4 @@ Ask: What is randomness?
 * The vector database is stored locally using ChromaDB.
 * All inference runs locally through Ollama.
 * This project was built as a learning project to understand the fundamentals of Retrieval-Augmented Generation (RAG) systems.
+
